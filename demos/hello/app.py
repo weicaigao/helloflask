@@ -39,3 +39,8 @@ def greet(name):
 def hello():
     """Just say hello."""
     click.echo('Hello, Human!')
+
+@app.cli.command('wyy')
+def hi():
+    """Just say hello, vvyy."""
+    click.echo('Hello, vvyy!')
