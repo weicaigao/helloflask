@@ -16,6 +16,9 @@ app = Flask(__name__)
 def index():
     return '<h1>Hello, World!</h1>'
 
+@app.route('/yy')
+def wyy():
+    return '<h1>Hello, WYY!</h1>'
 
 # bind multiple URL for one view function
 @app.route('/hi')
